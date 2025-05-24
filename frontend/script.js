@@ -1,5 +1,5 @@
 
-const API_URL = 'http://localhost:3000/notes';
+const API_URL = 'https://notas-api-pcil.onrender.com';
 
 const form = document.getElementById('note-form');
 const titleInput = document.getElementById('title');
