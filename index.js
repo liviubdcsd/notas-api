@@ -9,4 +9,7 @@ app.use(express.json());
 app.use('/notes', notesRouter);
 
 const PORT = process.env.PORT || 3000;
+app.get('/', (req, res) => {
+  res.send('API está rodando!');
+});
 app.listen(PORT, () => console.log(`API running on http://localhost:${PORT}`));
